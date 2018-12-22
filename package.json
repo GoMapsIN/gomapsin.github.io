@@ -1,0 +1,16 @@
+{
+  "name": "GoMapsIN",
+  "version": "1.0.0",
+  "description": "Public Site of GoMaps.in",
+  "main": "index.js",
+  "repository": "https://github.com/GoMapsIN/gomapsin.github.io.git",
+  "author": "Arunmozhi <arun@arunmozhi.in>",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "tailwindcss": "^0.7.3"
+  },
+  "scripts": {
+    "build": "tailwind build src/css/main.css -o dist/style.css"
+  }
+}
